@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baholar Kundaligi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 24px;
+            width: 100%;
+            max-width: 1000px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1e293b;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .nav-tabs {
+            display: flex;
+            gap: 5px;
+        }
+        .tab {
+            border: 1px solid #cbd5e1;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            background: white;
+            font-size: 14px;
+        }
+        .tab.active {
+            background-color: #3b82f6;
+            color: white;
+            border-color: #3b82f6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 14px;
+        }
+        th {
+            color: #64748b;
+            font-weight: 500;
+            background-color: #f8fafc;
+        }
+        td {
+            color: #334155;
+        }
+        .subject {
+            font-weight: 600;
+            color: #1e3a8a;
+        }
+        .mark {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+            color: white;
+        }
+        .mark-5 { background-color: #22c55e; }
+        .mark-4 { background-color: #16a34a; }
+        .mark-oz { background-color: #94a3b8; font-size: 11px; }
+        .text-center { text-align: center; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="title">
+            <span style="color: #3b82f6; cursor: pointer;">&lt;</span> 
+            2025/2026 (7-A) 
+            <span style="color: #3b82f6; cursor: pointer;">&gt;</span>
+        </div>
+        <div class="nav-tabs">
+            <button class="tab">1</button>
+            <button class="tab">2</button>
+            <button class="tab">3</button>
+            <button class="tab">4</button>
+            <button class="tab active">xulosa</button>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Fan</th>
+                <th class="text-center">1 Chorak</th>
+                <th class="text-center">2 Chorak</th>
+                <th class="text-center">3 Chorak</th>
+                <th class="text-center">4 Chorak</th>
+                <th class="text-center">Yil</th>
+                <th class="text-center">Imtihon</th>
+                <th class="text-center">Xulosa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="subject">Adabiyot</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Biologiya</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Fizika</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Geografiya</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Informatika va AT</td>
+                <td class="text-center"><span class="mark mark-oz">OZ</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-oz">OZ</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Ingliz tili</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Jaxon tarixi</td>
+                <td class="text-center"><span class="mark mark-oz">OZ</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-oz">OZ</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Jismoniy tarbiya</td>
+                <td class="text-center"><span class="mark mark-oz">OZ</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-oz">OZ</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Kimyo</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Matematika</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Ona tili</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Rus tili</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-4">4</span></td>
+            </tr>
+            <tr>
+                <td class="subject">Tarbiya</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-oz">OZ</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+            <tr>
+                <td class="subject">O’zbekiston tarixi</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+                <td class="text-center">—</td>
+                <td class="text-center"><span class="mark mark-5">5</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
